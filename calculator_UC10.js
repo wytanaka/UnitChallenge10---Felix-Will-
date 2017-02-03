@@ -139,7 +139,7 @@ function percentage() {
     if (operator > 0) {
         calculate();
     }
-    current_input = current_input / 100;
+    current_input = current_input * 100;
     operator = 0;
     memory = "0";
     displayCurrentInput();
