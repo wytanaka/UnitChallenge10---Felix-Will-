@@ -74,12 +74,13 @@ square();
 
 
 QUnit.test("clear (C) test" , function ( assert ) {
-    addDigit("854312");
+    addDigit("9");
     storeOperator("*");
+    addDigit("4");
 cancel();
     addDigit("6");
-    addDigit("4");
-    assert.equal(document.getElementById('screen').value, "64", "Passed - Expected 64");
+calculate();
+    assert.equal(document.getElementById('screen').value, "54", "Passed - Expected 54");
     allClear();
 });
 
