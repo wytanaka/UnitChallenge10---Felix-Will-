@@ -93,7 +93,7 @@ function storeOperator(op) {
         operator = 4;
     }; // difference
     memory = current_input; //store value
-    currentInput = "";
+    current_input = "";
     displayCurrentInput();
 }
 /**
@@ -274,5 +274,3 @@ function tigDegree() {
         degree = false;
     }
 }
-
-
